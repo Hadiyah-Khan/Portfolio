@@ -1,0 +1,123 @@
+body {
+  font-family: "Times New Roman";
+  color: black;
+  background-color: #E6F3ED;
+  margin: 0;
+  padding: 0;
+  background: rgb(212, 211, 211);
+}
+
+#header {
+  background-color: #8FFFC7;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+#footer {
+  background-color: #8FFFC7;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  clear: both;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+#sideMenu {
+	background-color: #F0F0F0;
+	width: 200px;
+      float: left;
+      height: calc(100vh - 100px);
+	  border: 1px solid black;
+      box-sizing: border-box;
+	  padding : 20px;
+}
+#content {
+	background-color: #E6F3ED;
+	width: calc(100% - 200px);
+    float: left;
+    height: calc(100vh - 100px);
+	border: 1px solid black;
+    box-sizing: border-box;
+	padding : 10px;
+  
+}
+
+button {
+  border: soft;
+  border-color: #DFF8ED;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 40%;
+  background-color: #B9F4D6;
+}
+
+button:hover {
+  background-color: #87ECBA;
+}
+
+li {
+  padding-bottom: 2%;
+}
+
+
+#sideMenu ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+}
+
+#sideMenu li {
+  margin: 10px 0;
+}
+
+#sideMenu button {
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
+.grid {
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+  /*border:1px black solid;
+box-sizing:border-box*/
+}
+
+.snake {
+  background: blue;
+}
+
+.apple {
+  background: yellow;
+  border-radius: 20px;
+}
+
+.popup {
+  background: rgb(32, 31, 31);
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 100px;
+  left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
